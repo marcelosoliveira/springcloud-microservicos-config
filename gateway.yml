@@ -24,10 +24,10 @@ spring:
         - id: product-catalog
           uri: http://localhost:3001
           predicates:
-            - Path=/api/v1/product/**
+            - Path=**/product/**
         - id: shopping-cart
           uri: http://localhost:3002
           predicates:
-            - Path=/api/v1/cart/**
+            - Path=**/cart/**
             
 
